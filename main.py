@@ -9,7 +9,6 @@ def generate_random_password():
 	password = []
 	for i in range(length):
 		password.append(random.choice(characters))
-	random.shuffle(password)
 	print("password:", "".join(password))
 
 
